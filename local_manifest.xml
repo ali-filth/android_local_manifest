@@ -6,15 +6,13 @@
     <remove-project name="CyanogenMod/android_frameworks_native" />
     <remove-project name="CyanogenMod/android_packages_apps_Browser" />
     <remove-project name="CyanogenMod/android_vendor_cm" />
-    <project path="build" name="ali-filth/android_build.git" remote="github" revision="cm-11.0" >
+    <project name="ali-filth/android_build" path="build" remote="github" revision="cm-11.0" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
-    <project path="frameworks/av" name="ali-filth/android_frameworks_av.git" remote="github" revision="cm-11.0" />
-    <project path="frameworks/native" name="ali-filth/android_frameworks_native.git" remote="github" revision="cm-11.0" />
-    <project path="vendor/cm" name="ali-filth/android_vendor_cm.git" remote="github" revision="cm-11.0" />
-    
-    <!-- Local projects -->
-    <project path="bootable/recovery" name="PhilZ-cwm6/philz_touch_cwm6.git" remote="github" revision="cm-11.0" />
-    <project path="hardware/qcom/display-legacy" name="ali-filth/android_hardware_qcom_display-legacy.git" remote="github" revision="cm-11.0" />
-    <project path="hardware/qcom/media-legacy" name="ali-filth/android_hardware_qcom_media-legacy.git" remote="github" revision="cm-11.0" />
+    <project name="ali-filth/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-11.0" />
+    <project name="ali-filth/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-11.0" />
+    <project name="ali-filth/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-11.0" />
+    <project name="PhilZ-cwm6/philz_touch_cwm6" path="bootable/recovery" remote="github" revision="cm-11.0" />
+    <project name="ali-filth/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="cm-11.0" />
+    <project name="ali-filth/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="cm-11.0" />
 </manifest>

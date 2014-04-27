@@ -12,7 +12,6 @@
     <project name="ali-filth/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-11.0" />
     <project name="ali-filth/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-11.0" />
     <project name="ali-filth/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-11.0" />
-    <project name="PhilZ-cwm6/philz_touch_cwm6" path="bootable/recovery" remote="github" revision="cm-11.0" />
     <project name="ali-filth/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="cm-11.0" />
     <project name="ali-filth/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="cm-11.0" />
 </manifest>

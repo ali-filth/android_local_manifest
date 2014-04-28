@@ -16,4 +16,5 @@
     <project name="ali-filth/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="cm-11.0" />
     <project name="ali-filth/android_kernel_samsung_msm7x27a" path="kernel/samsung/arubaslim" remote="github" revision="cm-11.0" />
     <project name="ali-filth/android_device_samsung_arubaslim" path="device/samsung/arubaslim" remote="github" revision="cm-11.0" />
+    <project name="ali-filth/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-11.0" />
 </manifest>
